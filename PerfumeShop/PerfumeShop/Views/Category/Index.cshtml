@@ -1,0 +1,39 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "Category";
+}
+<a asp-controller="Category" asp-action="Create" class="btn btn-primary">Create</a>
+<table class="table table-bordered table-hover table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>#ID</th>
+            <th>Category name</th>
+            <th>Description</th>
+            <th>Products</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Category cat in Model)
+        {
+            <tr>
+                <td>@cat.CategoryId</td>
+                <td>@cat.CategoryName</td>
+                <td>@cat.Description</td>
+                <td class="text-center"><a title="Show Product" class="btn btn-outline-info btn-sm" asp-controller="Product" asp-action="Index" asp-route-catId="@cat.CategoryId">@cat.Products.Count()</a></td>
+                <td class="text-right">
+                    <a asp-controller="Category" asp-action="Edit" asp-route-catId="@cat.CategoryId" class="btn btn-warning">Edit</a>
+                    @if (cat.Status)
+                    {
+                        <a asp-controller="Category" asp-action="ChangeStatus" asp-route-catId="@cat.CategoryId" class="btn btn-secondary btn-sm"><i class="fa fa-lock">Hết Hàng</i></a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Category" asp-action="ChangeStatus" asp-route-catId="@cat.CategoryId" class="btn btn-primary btn-sm"><i class="fa fa-lock-open">Còn Hàng</i></a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
