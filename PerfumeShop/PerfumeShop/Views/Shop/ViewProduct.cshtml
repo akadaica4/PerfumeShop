@@ -1,0 +1,54 @@
+﻿@model List<Product>
+@using System.Globalization
+@{
+    ViewData["Title"] = "Product";
+    string currencyFormat(double number)
+    {
+        var info = CultureInfo.GetCultureInfo("vi-VN");
+        return String.Format(info, "{0:C0}", number);
+    }
+}
+<div class="row">
+    <div class="col-lg-3">
+        <h1 class="h2 pb-4">Tên Sản Phẩm</h1>
+        @foreach (var cat in Model)
+        {
+            <h3 class="h3 pb-4"><a style="text-decoration: none;color:black" asp-controller="Shop" asp-action="ViewProduct" asp-route-catId="@cat.CategoryId">@cat.ProductName</a></h3>
+        }
+    </div>
+    <div class="col-lg-9">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 product-wap rounded-0">
+                        <div class="card rounded-0">
+                            <img class="card-img rounded-0 img-fluid" style="width:300px; height:300px" src=@Url.Content(item.Pictures)>
+                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                <ul class="list-unstyled">
+                                    <li><a class="btn btn-success text-white mt-2" asp-controller="Shop" asp-action="Detail" asp-route-productId="@item.ProductId"><i class="far fa-eye"></i></a></li>
+                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <a href="shop-single.html" class="h3 text-decoration-none">Tên Sản Phẩm: @item.ProductName</a>
+                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                <li class="pt-2">
+                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                </li>
+                            </ul>
+                            <p class=" mb-0">Giá: @currencyFormat(item.Price)</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- End Categories of The Month -->
+<!-- Start Featured Product -->

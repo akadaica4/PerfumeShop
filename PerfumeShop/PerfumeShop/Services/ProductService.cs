@@ -49,9 +49,23 @@ namespace PerfumeShop.Services
             return context.Products.Include(p => p.Category).FirstOrDefault(p => p.ProductId == productId);
         }
 
-        public List<Product> GetProductByCategoryId(int categoryId)
+        public List<Product> GetProductByCategoryId(int catId)
         {
-            return context.Products.Include(p => p.Category).Where(p => p.CategoryId == categoryId).ToList();
+            return context.Products.Include(p => p.Category).Where(p => p.CategoryId == catId).ToList();
+        }
+
+        public bool Remove(int productId)
+        {
+            try
+            {
+                var product = Get(productId);
+                context.Remove(product);
+                return context.SaveChanges() > 0;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

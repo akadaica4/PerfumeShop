@@ -33,8 +33,15 @@ using PerfumeShop.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\Views\_ViewImports.cshtml"
+using PerfumeShop.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1727c876808db57b6178d76ab2c5cce734212c20", @"/Views/Category/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a54c610d4482107ba3368dad74adbf4a7d17a87e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f211ffd2ad8a5853fdbea8c2fbdda234547775d0", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Category>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Category", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -81,7 +88,7 @@ using PerfumeShop.Entities;
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c207494", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c207703", async() => {
                 WriteLiteral("Create");
             }
             );
@@ -145,7 +152,7 @@ using PerfumeShop.Entities;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                <td class=\"text-center\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2010403", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2010612", async() => {
 #nullable restore
 #line 23 "D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\Views\Category\Index.cshtml"
                                                                                                                                                                              Write(cat.Products.Count());
@@ -186,7 +193,7 @@ using PerfumeShop.Entities;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n                <td class=\"text-right\">\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2013479", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2013688", async() => {
                 WriteLiteral("Edit");
             }
             );
@@ -229,7 +236,7 @@ using PerfumeShop.Entities;
 #line hidden
 #nullable disable
             WriteLiteral("                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2016277", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2016486", async() => {
                 WriteLiteral("<i class=\"fa fa-lock\">Hết Hàng</i>");
             }
             );
@@ -273,7 +280,7 @@ using PerfumeShop.Entities;
 #line hidden
 #nullable disable
             WriteLiteral("                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2019131", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1727c876808db57b6178d76ab2c5cce734212c2019340", async() => {
                 WriteLiteral("<i class=\"fa fa-lock-open\">Còn Hàng</i>");
             }
             );

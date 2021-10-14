@@ -1,4 +1,4 @@
-﻿@model IEnumerable<PerfumeShop.Entities.Product>
+﻿@model IEnumerable<Product>
 @using System.Globalization
 @{
     ViewData["Title"] = "Index";
@@ -41,7 +41,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Pictures)
             </th>
-            <th></th>
+            <th>Action</th>
 
         </tr>
     </thead>
@@ -49,7 +49,7 @@
         @foreach (var product in Model)
         {
         <tr>
-            <td>
+            <td> 
                 @Html.DisplayFor(modelItem => product.ProductId)
             </td>
             <td>

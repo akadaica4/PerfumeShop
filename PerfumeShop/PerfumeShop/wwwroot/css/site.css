@@ -78,3 +78,36 @@ body {
     width: 100px;
     height: 150px;
 }
+.navbar-laravel {
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+.navbar-brand, .nav-link, .my-form, .login-form {
+    font-family: Raleway, sans-serif;
+}
+
+.my-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+    .my-form .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+.login-form {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+    .login-form .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

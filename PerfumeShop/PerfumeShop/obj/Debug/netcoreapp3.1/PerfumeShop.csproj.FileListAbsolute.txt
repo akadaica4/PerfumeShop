@@ -22,8 +22,6 @@ D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\ne
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
-D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -102,8 +100,6 @@ D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\ne
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
-D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
-D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -427,3 +423,19 @@ D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\ne
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
 D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Detail.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MainLayout.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Account\_ViewStart.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shop\_ViewStart.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shop\ViewProduct.cshtml.g.cs
+D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Detail.cshtml.g.cs

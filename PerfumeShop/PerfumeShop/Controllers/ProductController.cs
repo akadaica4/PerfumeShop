@@ -128,5 +128,34 @@ namespace PerfumeShop.Controllers
             ViewBag.Category = category;
             return View(model);
         }
+        [HttpGet]
+        [Route("Product/Detail/{productId}")]
+        public IActionResult Detail(int productId)
+        {
+            var product = productService.Get(productId);
+            var detailProduct = new DetailProduct()
+            {
+                CategoryId = product.CategoryId,
+                ProductId = product.ProductId,
+                PicturesPath = product.Pictures,
+                Price = product.Price,
+                ProductName = product.ProductName,
+                Quantity = product.Quantity,
+                Trademark = product.Trademark,
+                DescriptionProduct = product.DescriptionProduct
+            };
+            ViewBag.Category = category;
+            return View(detailProduct);
+        }
+        [HttpGet]
+        [Route("Product/Remove/{productId}")]
+        public IActionResult Remove(int productId)
+        {
+            if (productService.Remove(productId))
+            {
+                return RedirectToAction("Index", "Product", new { catId = category.CategoryId });
+            }
+            return RedirectToAction("Index", "Detail", new { productId = productId });
+        }
     }
 }

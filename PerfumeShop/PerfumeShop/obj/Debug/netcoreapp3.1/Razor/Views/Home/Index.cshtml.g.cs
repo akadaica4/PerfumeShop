@@ -33,8 +33,15 @@ using PerfumeShop.Entities;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\mudule 3\case study module 3\PerfumeShop\PerfumeShop\PerfumeShop\Views\_ViewImports.cshtml"
+using PerfumeShop.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a54c610d4482107ba3368dad74adbf4a7d17a87e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f211ffd2ad8a5853fdbea8c2fbdda234547775d0", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

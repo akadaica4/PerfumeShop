@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PerfumeShop.Contexts;
+using PerfumeShop.Entities;
 using PerfumeShop.Services;
 using System;
 using System.Collections.Generic;
@@ -30,6 +32,7 @@ namespace PerfumeShop
             services.AddDbContext<PerfumeShopDBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("PerfumeShopDbConnection")));
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<PerfumeShopDBContext>().AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,13 +53,14 @@ namespace PerfumeShop
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Category}/{action=Index}/{id?}");
+                    pattern: "{controller=Shop}/{action=Index}/{id?}");
             });
         }
     }

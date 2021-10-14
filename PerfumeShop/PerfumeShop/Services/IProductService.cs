@@ -12,5 +12,6 @@ namespace PerfumeShop.Services
         bool Create(Product model);
         bool Edit(Product model);
         Product Get(int productId);
+        bool Remove(int productId);
     }
 }
